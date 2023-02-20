@@ -7,6 +7,7 @@ date: '2023-02-21 *(Updated: `r Sys.Date()`)*'
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
+    self_contained: false
     nature:
       slideNumberFormat: "%current%"
       highlightStyle: github
