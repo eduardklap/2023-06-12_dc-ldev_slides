@@ -32,12 +32,13 @@ knitr::opts_chunk$set(
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
+# colour scheme by alwil: https://github.com/alwil/22-10-24_dc-socialsci_LeidenDelftEur_Intro
 library(xaringanthemer)
 style_duo(
-  primary_color = "#481567ff",
-  secondary_color = "#20a387ff",
-  text_bold_color = "#33638DFF", 
-  code_inline_color = "#fde725ff"
+  primary_color ='#FFFFFF' ,#"#481567ff",
+  secondary_color = '#00A6D6' ,#"#20a387ff",
+  text_bold_color = '#000000',#"#33638DFF", 
+  code_inline_color ='#FFB81C'#"#fde725ff"
 )
 ```
 
