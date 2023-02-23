@@ -1,5 +1,7 @@
 ---
 title: "Day 4: R Markdown and Data Viz"
+institute: |
+  Leiden University, TU Delft, Erasmus University Rotterdam, and VU Amsterdam
 date: '2023-02-24 *(Updated: `r Sys.Date()`)*'
 output:
   xaringan::moonreader:
@@ -32,11 +34,10 @@ percent_items <- interviews_plotting %>%
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 style_duo(
-  primary_color = "#481567ff",
-  secondary_color = "#20a387ff",
-  text_bold_color = "#20a387ff", 
-  code_inline_color = "#fde725ff",
-  link_color = "#c024db"
+  primary_color ='#FFFFFF' ,#"#481567ff",
+  secondary_color = '#00A6D6' ,#"#20a387ff",
+  text_bold_color = '#000000',#"#33638DFF", 
+  code_inline_color ='#FFB81C'#"#fde725ff"
 )
 ```
 
@@ -179,15 +180,15 @@ interviews_plotting %>%
 class: center, middle
 
 .pull-left[
-<img src="./day-4_exercises_files/figure-html/base-pl-1-1.png" width="80%"/>
+<img src="./day-4_slides_files/figure-html/base-pl-1-1.png" width="80%"/>
 
-<img src="./day-4_exercises_files/figure-html/base-pl-2-1.png" width="80%"/>
+<img src="./day-4_slides_files/figure-html/base-pl-2-1.png" width="80%"/>
 ]
 
 .pull-right[
-<img src="./day-4_exercises_files/figure-html/ggplot-1-1.png" width="80%"/>
+<img src="./day-4_slides_files/figure-html/ggplot-1-1.png" width="80%"/>
 
-<img src="./day-4_exercises_files/figure-html/ggplot-2-1.png" width="80%"/>
+<img src="./day-4_slides_files/figure-html/ggplot-2-1.png" width="80%"/>
 ]
 
 ---
@@ -274,6 +275,9 @@ percent_wall_type %>%
     scale_fill_viridis_d() # add colourblind-friendly palette
 ```
 
+---
+
+![](https://media.giphy.com/media/3oEhmHmWP3Y9wQxoli/giphy.gif)
 ---
 class: center, middle
 
@@ -367,6 +371,10 @@ percent_memb_assoc %>%
    ggplot(aes(x = village, y = percent, fill = memb_assoc)) +
     geom_bar(stat = "identity", position = "dodge")
 ```
+
+---
+
+![](https://media.giphy.com/media/3oEhmHmWP3Y9wQxoli/giphy.gif)
 
 ---
 class: center, middle
