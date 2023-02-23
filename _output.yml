@@ -1,0 +1,8 @@
+xaringan::moon_reader:
+  css: xaringan-themer.css
+  self_contained: false
+  nature:
+    slideNumberFormat: "%current%"
+    highlightStyle: github
+    highlightLines: true
+    countIncrementalSlides: false

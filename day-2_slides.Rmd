@@ -2,17 +2,8 @@
 title: "Day 2: Getting Started with R(Studio)"
 subtitle: "Data Carpentries for Social Sciences"
 institute: |
-#  Leiden University, TU Delft, Erasmus University Rotterdam, and VU Amsterdam
+  Leiden University, TU Delft, Erasmus University Rotterdam, and VU Amsterdam
 date: '2023-02-21 *(Updated: `r Sys.Date()`)*'
-output:
-  xaringan::moon_reader:
-    css: xaringan-themer.css
-    self_contained: false
-    nature:
-      slideNumberFormat: "%current%"
-      highlightStyle: github
-      highlightLines: true
-      countIncrementalSlides: false
 ---
 
 ```{r setup, include=FALSE}
