@@ -2,7 +2,7 @@
 
 Slides for days 1 of [Data Carpentry for Social Sciences & Humanities](https://leidenuniversitylibrary.github.io/2023-06-12-ldev-leiden/).
 
--   Website: <https://eduardklap.github.io/2023-06-12_dc-ldev_slides/day-1_slides-intro.html>
+-   Slides: <https://eduardklap.github.io/2023-06-12_dc-ldev_slides/day-1_slides-intro.html>
 
 
 Original slides by [Bjørn Bartholdy](https://github.com/bbartholdy/): (<https://github.com/bbartholdy/2023-02-20_dc-ldev_slides>).\
